@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Eat-Da-Burger</title>
+		<meta charset="UTF-8">
+
+		<!---bootstrap-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+		<!--style-->
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css"/>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h1>Eat-Da-Burger!</h1>
+					<img src="/assets/img/burgers-307648_640" alt="burger"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-offset-3 text-center">
+					<h3>Eat These Burgers</h3>
+				</div>
+				<div class="col-md-6 col offset-6 text-center">
+					<h3>Burgers You've Devoured</h3>
+				</div>
+			</div>
+			<div class="col-md-12 text-center">
+				<form action="/burgers" method="POST">
+					<input type="text" id="name" name="burger_name" placeholder="What burger would you like to devour?">
+					<button type="submit" class="btn btn-danger">Add Burger</button>
+				</form>				
+			</div>
+		</div>	
+
+	</body>
+
+</html>

@@ -1,0 +1,21 @@
+body {
+	width: 100%;
+	background-image: url("/img/burger-1252268_1920.jpg");
+	background-repeat: repeat;
+}
+
+.container {
+	width: 75%;
+	text-align: center;
+	background: #ffd11a;
+	height: 100%;
+}
+
+#top {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+#burger-entry {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
